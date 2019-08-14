@@ -1,5 +1,47 @@
-.navbar {
-    color: blue;
-    border-style: dotted
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/* ------------------------------------------------------------------------------ colours*/
+
+
+
+.navbar-brand {
+  background-color: red;
 }
 
+.nav-item {
+  background-color: red;
+}
+
+.jumbotron-fluid {
+  background-color: red;
+}
+
+navbar-toggler
+jumbotron-fluid
+
+/* ------------------------------------------------------------------------------ index.html styling*/
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------ timetables.html styling*/
+
+.timetables-schedules {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------ contact.html styling*/
