@@ -3,29 +3,52 @@
 /* ------------------------------------------------------------------------------ colours*/
 
 
+.jumbotron-fluid {
+  background-color: #6c00bf;
+  font-family: 'Blinker', sans-serif;
+}
+
+.display-4 {
+  color: #ebebeb;
+}
+
+.lead {
+  color: #ebebeb;
+}
+
+
+/* ------------------------------------------------------------------------------ navbar styling*/
+
+nav {
+    background-color: #6c00bf;
+    color: #6c00bf;
+    min-height: 90px;
+    font-family: 'Blinker', sans-serif;
+    margin: 0;
+}
 
 .navbar-brand {
-  background-color: red;
+  color: red;
 }
 
-.nav-item {
-  background-color: red;
+
+
+/* ------------------------------------------------------------------------------ index.html - cards styling*/
+
+.card {
+  background-color: #eb7d34;
+  font-family: 'Blinker', sans-serif;
+  height: 410px;
 }
 
-.jumbotron-fluid {
-  background-color: red;
+.card-body {
+  background-color: #eb7d34;
+  font-family: 'Blinker', sans-serif;
 }
 
-navbar-toggler
-jumbotron-fluid
-
-/* ------------------------------------------------------------------------------ index.html styling*/
-
-
-
-
-
-
+img {
+  height: 205px;
+}
 
 /* ------------------------------------------------------------------------------ timetables.html styling*/
 
@@ -45,3 +68,65 @@ jumbotron-fluid
 
 
 /* ------------------------------------------------------------------------------ contact.html styling*/
+
+.margin-bottom-10 {
+  margin-bottom: 10px;
+}
+
+/* ------------------------------------------------------------------------------ footer styling*/
+
+footer {
+    background-color: #6c00bf;
+    color: #fafafa;
+    min-height: 120px;
+    font-family: 'Blinker', sans-serif;
+    margin: 0;
+}
+
+.cv-pdf i {
+    font-size: 18px;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.cv-pdf i:hover {
+    color: #e84610;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #e84610;
+}
+
+#footer-details {
+    padding: 20px;
+}
+
+.sr-only {
+  background: blue;
+}
+}
