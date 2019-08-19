@@ -19,19 +19,38 @@
 
 /* ------------------------------------------------------------------------------ navbar styling*/
 
-nav {
-    background-color: #6c00bf;
-    color: #6c00bf;
-    min-height: 90px;
-    font-family: 'Blinker', sans-serif;
-    margin: 0;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #6c00bf;
+  font-family: 'Blinker', sans-serif;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #eb7d34;
 }
 
 .navbar-brand {
-  color: red;
+  font-size: 23px;
 }
-
-
 
 /* ------------------------------------------------------------------------------ index.html - cards styling*/
 
