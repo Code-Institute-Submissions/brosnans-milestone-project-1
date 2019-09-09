@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-/* ------------------------------------------------------------------------------ colours*/
-
+/* ------------------------------------------------------------------------------ jumbotron styling*/
 
 .jumbotron-fluid {
   background-color: #6c00bf;
@@ -40,34 +39,54 @@ li a {
   text-decoration: none;
 }
 
-li a:hover:not(.active) {
-  background-color: #111;
-}
-
 .active {
   background-color: #eb7d34;
 }
 
+.timetables {
+  background-color: #00c2a2;
+}
+
+.contact {
+  background-color: #d11f00;
+}
+
 .navbar-brand {
   font-size: 23px;
+  background-color: #6c00bf;
+}
+
+.navbar-brand:hover:not(.active) {
+  background-color: #6c00bf;
 }
 
 /* ------------------------------------------------------------------------------ index.html - cards styling*/
 
 .card {
-  background-color: #eb7d34;
+  background-color: #6c00bf;
   font-family: 'Blinker', sans-serif;
-  height: 410px;
+  height: 350px;
 }
 
 .card-body {
-  background-color: #eb7d34;
+  background-color: #6c00bf;
   font-family: 'Blinker', sans-serif;
+}
+
+.card-text {
+  color: #ebebeb;
+  font-size: 15px;
 }
 
 img {
   height: 205px;
 }
+
+#button {
+  background-color: #6c00bf;
+  font-family: 'Blinker', sans-serif;;
+}
+
 
 /* ------------------------------------------------------------------------------ timetables.html styling*/
 
@@ -76,9 +95,16 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  min-height: 450;
 }
 
+.timetable1 {
+  min-height: 400;
+}
 
+.timetable2 {
+  min-height: 400;
+}
 
 
 
@@ -148,4 +174,4 @@ footer {
 .sr-only {
   background: blue;
 }
-}
+
