@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/* ------------------------------------------------------------------------------ jumbotron styling*/
+
+.jumbotron-fluid {
+  background-color: #6c00bf;
+  font-family: 'Blinker', sans-serif;
+}
+
+.display-4 {
+  color: #ebebeb;
+}
+
+.lead {
+  color: #ebebeb;
+}
+
+
+/* ------------------------------------------------------------------------------ navbar styling*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #6c00bf;
+  font-family: 'Blinker', sans-serif;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: #6c00bf;
+}
+
+
+.active {
+  background-color: #eb7d34;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.timetables {
+  background-color: #00c2a2;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.contact {
+  background-color: #d11f00;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.navbar-brand {
+  font-size: 23px;
+  background-color: #6c00bf;
+}
+
+.navbar-brand:hover:not(.active) {
+  background-color: #6c00bf;
+}
+
+.brand-text {
+  color: white;
+}
+
+/* ------------------------------------------------------------------------------ index.html - cards styling*/
+
+.card {
+  font-family: 'Blinker', sans-serif;
+  height: 350px;
+  box-shadow: 4px 13px 9px -3px rgba(81,105,255,0.75);
+}
+
+.card-body {
+  background-color: #6c00bf;
+  font-family: 'Blinker', sans-serif;
+  box-shadow: 4px 13px 9px -3px rgba(81,105,255,0.75);
+}
+
+.card-text {
+  color: #ebebeb;
+  font-size: 15px;
+}
+
+.member-name {
+  color: #ebebeb;
+  font-size: 19px;
+}
+
+img {
+  height: 205px;
+  box-shadow: 4px 13px 9px -3px rgba(81,105,255,0.75);
+}
+
+
+/* ------------------------------------------------------------------------------ timetables.html styling*/
+
+.timetables-schedules {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  min-height: 450;
+}
+
+.timetable1 {
+  min-height: 400;
+}
+
+.timetable2 {
+  min-height: 400;
+}
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------ contact.html styling*/
+
+.margin-bottom-10 {
+  margin-bottom: 22px;
+}
+
+h3  {
+  font-size: 40px;
+}
+
+/* ------------------------------------------------------------------------------ footer styling*/
+
+footer {
+    background-color: #6c00bf;
+    color: #fafafa;
+    min-height: 120px;
+    font-family: 'Blinker', sans-serif;
+    margin: 0;
+}
+
+.cv-pdf i {
+    font-size: 18px;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.cv-pdf i:hover {
+    color: #e84610;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #e84610;
+}
+
+#footer-details {
+    padding: 20px;
+}
+
+.sr-only {
+  background: blue;
+}
+
