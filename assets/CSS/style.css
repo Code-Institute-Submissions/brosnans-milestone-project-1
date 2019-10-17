@@ -30,6 +30,18 @@ ul {
   overflow: hidden;
 }
 
+
+@media only screen and (max-width: 800px) {
+  [class*="navbar-brand"]
+  {
+    display: grid;
+  }
+}
+
+
+
+
+
 li {
   float: left;
 }
@@ -117,19 +129,6 @@ img {
   width: 50%;
   min-height: 450;
 }
-
-.timetable1 {
-  min-height: 400;
-}
-
-.timetable2 {
-  min-height: 400;
-}
-
-
-
-
-
 
 
 /* ------------------------------------------------------------------------------ contact.html styling*/
