@@ -1,18 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+
 /* ------------------------------------------------------------------------------ jumbotron styling*/
 
 .jumbotron-fluid {
-  background-color: #6c00bf;
+  background-color: #ff7e40;
   font-family: 'Blinker', sans-serif;
 }
 
 .display-4 {
-  color: #ebebeb;
+  color: white;
 }
 
 .lead {
-  color: #ebebeb;
+  color: white;
 }
 
 
@@ -29,17 +30,6 @@ ul {
   align-items: center;
   overflow: hidden;
 }
-
-
-@media only screen and (max-width: 800px) {
-  [class*="navbar-brand"]
-  {
-    display: grid;
-  }
-}
-
-
-
 
 
 li {
@@ -90,6 +80,21 @@ li a {
   color: white;
 }
 
+
+@media (min-width: 600px) {
+  .top-navbar {
+  
+}
+}
+
+@media (max-width: 600px) {
+  .top-navbar {
+  display: grid
+}
+}
+
+
+
 /* ------------------------------------------------------------------------------ index.html - cards styling*/
 
 .card {
@@ -130,6 +135,21 @@ img {
   min-height: 450;
 }
 
+.calendar {
+  width: 50%;
+}
+
+@media (min-width: 600px) {
+  .timetables-schedules {
+  width: 50%
+}
+}
+
+@media (max-width: 600px) {
+  .timetables-schedules {
+  width: 84%
+}
+}
 
 /* ------------------------------------------------------------------------------ contact.html styling*/
 
