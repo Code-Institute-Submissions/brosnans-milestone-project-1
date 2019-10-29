@@ -80,6 +80,10 @@ li a {
   color: white;
 }
 
+.top-navbar {
+  margin-bottom: 20px;
+}
+
 
 @media (min-width: 600px) {
   .top-navbar {
