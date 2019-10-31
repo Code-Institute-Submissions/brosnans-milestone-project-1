@@ -93,9 +93,10 @@ https://github.com/brosnans/milestone-project-1/blob/master/assets/wireframe%20%
 
 ### Deployed to Github Pages
 
+- Project repository: https://github.com/brosnans/milestone-project-1
+- Project link: [https://github.com/brosnans/milestone-project-1](https://brosnans.github.io/milestone-project-1/index.html)
 - Go to project repo settings on Github
 - Select master branch and click save
-- Project link: [https://github.com/brosnans/milestone-project-1](https://brosnans.github.io/milestone-project-1/index.html)
 
 ### Tests and Fixes
 
@@ -106,6 +107,30 @@ https://github.com/brosnans/milestone-project-1/blob/master/assets/wireframe%20%
 #### *Mobile*
 
 Tested on iPhone 5, 6, 7, 8 and X
+
+**PROBLEM**
+
+Navbar in two lines
+
+**FIX**
+
+Added media query to make navbar responsive in mobile view
+
+```css
+@media (min-width: 600px) {
+  .top-navbar {
+  
+}
+}
+
+@media (max-width: 600px) {
+  .top-navbar {
+  display: grid
+}
+}
+```
+
+---
 
 
 #### *Desktop*
