@@ -35,7 +35,7 @@ The gym has been in business for just over one year. You have been given the fol
 - Font Awesome v4.7.0
 - - https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
 
-### UXD
+### User Stories & User Experience Design
 
 | Strategy  | Focus                                                       | User Needs                                                                                        | Business Objectives                                                                             |
 |-----------|-------------------------------------------------------------|---------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
@@ -136,3 +136,16 @@ Added media query to make navbar responsive in mobile view
 #### *Desktop*
 
 Tested on Chrome, Safari, Firefox
+
+### Acknowledgements
+
+This is for educational use.
+
+All content on this project has been written and created by Seaghan Brosnan.
+
+### Credits
+
+#### Media
+
+All images used in index.html were taken from https://www.gettyimages.ie/photos/profile?sort=mostpopular&mediatype=photography&phrase=profile
+
